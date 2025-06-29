@@ -1,6 +1,6 @@
 /**
  * @file gameLogic.js
- * Pure game engine for Exercise 3 – no DOM, no file I/O
+ * Pure game engine for Exercise 3 
  * Author: Purna S. K. Saride – 28 Jun 2025
  */
 
