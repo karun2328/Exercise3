@@ -1,0 +1,67 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Tic-Tac-Toe – Exercise 3</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 30px;
+    }
+    table {
+      margin: 10px auto;
+      border-collapse: collapse;
+    }
+    td {
+      width: 60px;
+      height: 60px;
+      border: 2px solid #444;
+    }
+    td > input {
+      width: 100%;
+      height: 100%;
+      font-size: 28px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+    }
+    input:disabled { cursor: not-allowed; }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h3>Exercise 3 – Tic-Tac-Toe (Two-browser version)</h3>
+
+  <!-- Start label changed to Load -->
+  <button id="toggleBtn">Load</button>
+
+  <table id="board">
+    <tr>
+      <td><input type="button"></td>
+      <td><input type="button"></td>
+      <td><input type="button"></td>
+    </tr>
+    <tr>
+      <td><input type="button"></td>
+      <td><input type="button"></td>
+      <td><input type="button"></td>
+    </tr>
+    <tr>
+      <td><input type="button"></td>
+      <td><input type="button"></td>
+      <td><input type="button"></td>
+    </tr>
+  </table>
+
+  <!-- UI script (imports game logic) -->
+  <script type="module" src="js/ui.js"></script>
+</body>
+</html>
